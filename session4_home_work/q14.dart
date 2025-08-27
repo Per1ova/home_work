@@ -7,7 +7,7 @@ import 'package:test/expect.dart';
 void main() {
   List<int> scores = [15, 60, 44, 94, 23, 78];
 
-  if (scores == null || scores == isEmpty) {
+  if (scores == null || scores.isEmpty) {
     print('No Score');
   }
 
